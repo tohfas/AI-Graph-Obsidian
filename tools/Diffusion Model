@@ -1,6 +1,6 @@
 # What is a Diffusion Model?
 
-![Diffusion Model Thumbnail](https://example.com/thumbnail.jpg)
+![Diffusion Model](https://github.com/tohfas/AI-Graph-Obsidian/blob/main/img/DiffusionModel.png)
 ## Author
 - **Tohfa Siddika Barbhuiya** (**ORCID**: [0009-0007-2976-4601](https://orcid.org/0009-0007-2976-4601))
 
@@ -17,6 +17,8 @@ A diffusion model is a type of generative model that creates images by progressi
 1. **Variational Autoencoder (VAE)**: This compresses the image from pixel space to a smaller, more manageable latent space, capturing the essential features of the image.
 2. **U-Net**: A neural network that performs the denoising task, transforming the noisy latent representation back into a clean image.
 3. **Text Encoder (optional)**: For text-to-image generation, a pre trained text encoder like CLIP is used to transform text prompts into embeddings that guide the image generation process.
+
+![U-Net Architecture](https://github.com/tohfas/AI-Graph-Obsidian/blob/main/img/UNet.png)
 
 ### How Diffusion Models Work
 
@@ -43,6 +45,8 @@ A diffusion model is a type of generative model that creates images by progressi
    During inference, the reverse diffusion process starts with pure noise and iteratively refines it into a coherent image. The number of steps in this process can be adjusted, with more steps typically resulting in higher-quality images but at the cost of increased computational time.
 
    During training, the model learns to predict the noise at each time step by minimizing the loss function, which measures the difference between the predicted noise and the actual noise. This training process requires a large dataset of images and significant computational resources.
+
+![Diffusion Process](https://github.com/tohfas/AI-Graph-Obsidian/blob/main/img/ForwardReverseDiffusion.png)
 
 ## Applications of Diffusion Models
 
