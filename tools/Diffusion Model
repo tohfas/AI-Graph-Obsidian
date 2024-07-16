@@ -77,3 +77,7 @@ ControlNet is an advanced architecture designed to enhance the control over diff
 ## Conclusion
 
 In conclusion, diffusion models represent a significant leap forward in AI capabilities, particularly in the area of image generation and manipulation. By harnessing the power of gradual noise reduction and sophisticated neural networks like U-Net, these models not only produce high-fidelity images but also push the boundaries of what AI can achieve in creative and practical applications. Looking ahead, future advancements in diffusion models are likely to focus on enhancing their scalability, efficiency, and applicability across diverse domains. Research efforts will continue to refine these models, making them more accessible and capable of generating even more realistic and contextually relevant content. Moreover, integrating diffusion models with other AI techniques such as reinforcement learning and multimodal learning could unlock new possibilities in interactive and adaptive content creation.
+
+## References
+
+- Wikipedia contributors, 2024. Stable diffusion. *Wikipedia, The Free Encyclopedia*, [online] Available at: <https://en.wikipedia.org/wiki/Stable_Diffusion> [Accessed 16 July 2024].
